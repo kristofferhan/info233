@@ -56,18 +56,6 @@ public class QueueTest {
 		assertEquals(0, personBag.getCurrentSize());
 	}
 	
-	@Test
-	public int getFrequencyOf(Person geekPerson2) throws Exception {
-		int counter = 0;
-		for (Person personBag: personType) {
-			if (geekPerson2.equals(personType)){
-				counter++;
-			}
-		}
-		return counter;
-	}
-	
-	
 	
 	
 	
