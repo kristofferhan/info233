@@ -1,7 +1,7 @@
 package oblig1;
 
 /**
- * 
+ * Class that represents a GeekPerson.
  * @author kristofferh
  * @version 0.1
  */
