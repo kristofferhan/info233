@@ -1,7 +1,7 @@
 package oblig1;
 
 /**
- * 
+ * Class that handles a step in the simulation.
  * @author kristofferh
  * @version 0.1
  */

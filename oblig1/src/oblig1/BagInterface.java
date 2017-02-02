@@ -60,13 +60,6 @@ public interface BagInterface <T> {
 	public int getFrequencyOf(T anEntry);
 	
 	/**
-	 * Checks if the bag contains a given entry.
-	 * @param anEntry The entry to locate.
-	 * @return True if the bag contains anEntry, false if not.
-	 */
-	public boolean contains(T anEntry);
-	
-	/**
 	 * Retrieves all entries that are in this bag.
 	 * @return A newly allocated array of all entries in the bag. 
 	 * 		   Note: If the bag is empty, the returned array is empty.
