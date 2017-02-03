@@ -8,21 +8,19 @@ package oblig1;
  */
 
 public class Simulator {
-	
-	private SimulationStep step = new SimulationStep();
-	
-	public Simulator(BagInterface<Person> people) {
-		
-	}
-	
-	public SimulationStep simulateStep() {
-		return step;
-	}
-	
-	public void simulate() {
-		
-	}
-	
 
+    private SimulationStep step = new SimulationStep();
+
+    public Simulator(Queue<Person> personBag) {
+
+    }
+
+    public SimulationStep simulateStep() {
+        return step;
+    }
+
+    public void simulate() {
+
+    }
 
 }
